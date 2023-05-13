@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r95/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.waves.min.js"></script>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>GigaPepe</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
+
+<body class="is-preload">
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <div class="inner">
+      <nav>
+        <ul>
+          <li><a href="#intro">About</a></li>
+          <li><a href="#one">How To Buy</a></li>
+          <li><a href="#two">Tokenomics</a></li>
+          <li><a href="#three">Roadmap</a></li>
+          <li><a href="#footer">It's a mEmE</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up" style="overflow: hidden">
+      <div id="about-container" style="display: flex">
+        <div class="inner" style="margin: 25px 0 0 25px">
+          <h1>$GIGAPEPE</h1>
+          <p>
+            Dormant for eons, GigaPepe has emerged from the deepest, darkest
+            corners of the meme universe. Renowned leader, he has been
+            summoned by cosmic forces to bring justice to the meme coin world
+          </p>
+          <p>
+            No tax. No presale. LP burnt. A memecoin by the people, for the
+            people
+          </p>
+          <div style="display: flex">
+            <a href="https://twitter.com/GigaPepeToken" target="_blank" style="text-decoration: none"
+              class="image-zoom"><img src="images/twitter.png" alt="" data-position="center center"
+                style="height: 8vh" /></a>
+            <a href="https://t.me/gigapepetoken" target="_blank" style="text-decoration: none" class="image-zoom"><img
+                src="images/telegram.webp" alt="" data-position="center center" style="height: 8vh" /></a>
+            <a href="https://etherscan.io/address/0x9d3d0dc0306b59e96ce096aa4ca9e30e24ee4b5f" target="_blank"
+              style="text-decoration: none" class="image-zoom"><img src="images/etherscan.svg" alt=""
+                data-position="center center" style="height: 8vh" /></a>
+            <a href="https://put-ya-link-here-ya-dog" target="_blank" style="text-decoration: none"
+              class="image-zoom"><img src="images/uniswap.webp" alt="" data-position="center center"
+                style="height: 8vh" /></a>
+          </div>
+        </div>
+        <img src="images/Website/Pngs/Chad Pepe Full.png" alt="" data-position="center center"
+          style="max-height: 50vh" />
+      </div>
+    </section>
+    <script>
+      const effect = VANTA.WAVES({
+        el: "#intro",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 400.0,
+        minWidth: 400.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        waveHeight: 20.0,
+        color: 0x0a4205,
+        waveSpeed: 0.5,
+      });
+      //horizon scrollbar fix... sort of.
+      window.onload = function () {
+        window.dispatchEvent(new Event("resize"));
+      };
+    </script>
+    <!-- One -->
+    <section id="one" class="wrapper style2 spotlights">
+      <section style="min-height: 5em; display: flex; align-items: center">
+        <div class="content">
+          <h2 style="margin: 0">How To Buy</h2>
+        </div>
+      </section>
+      <section>
+        <div class="content" style="display: flex; align-items: center">
+          <img src="images/wallet.png" alt="" data-position="center center"
+            style="max-height: 8vh; margin-right: 2vh" />
+          <div>
+            Create a wallet. You can follow&nbsp;
+            <a href="https://support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask"
+              target="_blank">these instructions</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content" style="display: flex; align-items: center">
+          <img src="images/ethereum.png" alt="" data-position="center center"
+            style="max-height: 8vh; margin-right: 2vh" />
+          <div>
+            Buy some ETH from your exchange of choice and send it to your
+            wallet
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content" style="display: flex; align-items: center">
+          <img src="images/uniswap.webp" alt="" data-position="center center"
+            style="max-height: 8vh; margin-right: 2vh" />
+          <div>
+            Go to&nbsp;<a href="https://app.uniswap.org" target="_blank">Uniswap</a>, connect your wallet, swap ETH for
+            GIGAPEPE
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content" style="display: flex; align-items: center">
+          <img src="images/Website/Pngs/smirk.png" alt="" data-position="center center"
+            style="max-height: 8vh; margin-right: 2vh" />
+          <div>
+            Click on "select token" and paste the $GIGAPEPE address in the
+            field. When prompted, approve and accept the transaction
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper style3 fade-up" style="overflow: hidden">
+      <div class="inner" style="color: white">
+        <div id="tokenomics">
+          <div class="inner" style="margin: 25px 0 0 25px">
+            <h2 style="margin-bottom: 3em;">Tokenomics</h2>
+            <div style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+            ">
+              <div>
+                <p style="margin: 0">Community 5%</p>
+                <img src="images/pie.png" alt="" data-position="center center"
+                  style="max-height: 40vh; margin-right: 2vh" />
+                <p style="margin: 0">Uniswap 95%</p>
+              </div>
+            </div>
+            <div>
+              <br /><br />
+              <p>
+                5% was kept for the community, 95% was sent directly to a Uniswap
+                Pool, and liquidity was burnt. The team kept 0
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: center;"> <img src="images/Website/Pngs/Full Body GIGA PEPE.png"
+              alt="" data-position="center center" style="max-height: 80vh" /></div>
+
+        </div>
+
+
+        <!-- <div class="features">
+            <section>
+              <span class="icon solid major fa-code"></span>
+              <h3>Lorem ipsum amet</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-lock"></span>
+              <h3>Aliquam sed nullam</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-cog"></span>
+              <h3>Sed erat ullam corper</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-desktop"></span>
+              <h3>Veroeros quis lorem</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-link"></span>
+              <h3>Urna quis bibendum</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+            <section>
+              <span class="icon major fa-gem"></span>
+              <h3>Aliquam urna dapibus</h3>
+              <p>
+                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+                aliquam turpis mauris, sed ultricies erat dapibus.
+              </p>
+            </section>
+          </div>
+          <ul class="actions">
+            <li><a href="generic.html" class="button">Learn more</a></li>
+          </ul> -->
+      </div>
+    </section>
+    <script>
+      const effect1 = VANTA.WAVES({
+        el: "#two",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 400.0,
+        minWidth: 400.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        waveHeight: 20.0,
+        color: 0x0a4205,
+        waveSpeed: 0.5,
+      });
+      //horizon scrollbar fix... sort of.
+      window.onload = function () {
+        window.dispatchEvent(new Event("resize"));
+      };
+    </script>
+    <!-- Three -->
+    <section id="three" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2>Roadmap</h2>
+        <div class="features">
+          <section>
+            <span class="icon solid major fa-brain"></span>
+            <h3>Phase 1</h3>
+            <p>
+              Embrace the GigaPepe mindset
+            </p>
+          </section>
+          <section>
+            <span class="icon solid major fa-laugh"></span>
+            <h3>Phase 2</h3>
+            <p>
+              Propagate top keks
+            </p>
+          </section>
+          <section>
+            <span class="icon solid major fa-rocket"></span>
+            <h3>Phase 3</h3>
+            <p>
+              GigaPepe ascension
+            </p>
+          </section>
+          <section>
+            <span class="icon solid major fa-medal"></span>
+            <h3>Phase 4</h3>
+            <p>
+              bELieVe AnD yOu wiLl AcHiEve
+            </p>
+          </section>
+        </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper style1-alt" style="overflow: hidden">
+    <div class="inner">
+      <h2>It's a mEmE</h2>
+      <div style="display: flex;flex-direction: column;">
+        <div class="inner" style="margin: 25px 0 0 25px">
+          <p>$GIGAPEPE has no affiliation with Matt Furie or his creation, Pepe the Frog. Instead, this token aims to
+            pay tribute to the excellency that is the Pepe meme</p>
+          <p>Whilst $GIGAPEPE is a meme coin that artificially boosts confidence and provides a placebo effect of
+            masculinity, it has literally no value. This project is intended solely for entertainment purposes and has
+            no formal team or roadmap in place</p>
+        </div>
+        <div style="display: flex; justify-content: center;"> <img src="images/Website/Pngs/Chad with cigar.png" alt=""
+            data-position="center center" style="max-width: 30vh" />
+
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+    <p style="font-size: 12px; color: grey; text-align: center; width: 100%;">When using this token, you affirm you
+      understand the high risks of investing in cryptocurrency.
+      The site's content isn't investment advice, and we
+      aren't liable for potential losses or market changes. If you disagree with these conditions, don't use the website
+      or token.
+    </p>
+  </footer>
+  <script>
+    const effect2 = VANTA.WAVES({
+      el: "#footer",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 400.0,
+      minWidth: 400.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      waveHeight: 20.0,
+      color: 0x0a4205,
+      waveSpeed: 0.5,
+    });
+    //horizon scrollbar fix... sort of.
+    window.onload = function () {
+      window.dispatchEvent(new Event("resize"));
+    };
+  </script>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
